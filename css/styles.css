@@ -1,14 +1,7 @@
   /*FUENTES Y TAMAÑOS*/
 @import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Frijole&display=swap');
 
-
 .coda_bold {
-  font-family: "Coda", cursive;
-  font-weight: 800;
-}
-
-.xl {
-  font-size: calc(1.325rem + 2.5vw); /*ESTE TIENE QUE QUEDAR*/
 }
 
 /*GENERAL*/
@@ -22,9 +15,16 @@ ul li a{
 h1 {
   font-size: calc(1.325rem + 4.5vw);
 }
+.cabecera h1 {
+  font-size: calc(1.325rem + 2.5vw);
+}
 h1, h3, h1 span, h2, h3 span, button, .volver, .navbar div a {
   font-family: "Frijole", cursive;
   font-weight: 200;
+}
+h4 {
+  font-weight: 800;
+
 }
 .bodyLinks {
   background-image: url(../img/wallpaper_pages.jpg);
@@ -68,7 +68,6 @@ header {
 
 /*FOOTER*/
 footer p {
-  font-family: "Coda", cursive;
   font-weight: 800;
 }
 
