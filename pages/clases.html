@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,58 +13,84 @@
 
 </head>
 <body id="clases" class="bodyLinks bg-black">
-  <!--Inicio de encabezado-->
-  <header>
-    <div class="container-fluid">
-      <nav class="navbar navbar-dark navbar-expand-md">
-        <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo"/></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#listado" aria-controls="listado" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="listado">
-          <ul class="navbar-nav mb-2 mb-lg-0 m-auto">
-            <li class="nav-item frijole mx-lg-3 mx-1"><a class="nav-link" aria-current="page" href="../index.html">Inicio</a></li>
-            <li class="nav-item frijole mx-lg-3 mx-1"><a class="nav-link active" aria-current="page" href="./clases.html">Clases</a></li>
-            <li class="nav-item frijole mx-lg-3 mx-1"><a class="nav-link" aria-current="page" href="./staff.html">Staff</a></li>
-            <li class="nav-item frijole mx-lg-3 mx-1"><a class="nav-link" aria-current="page" href="./sedes.html">Sedes</a></li>
-            <li class="nav-item frijole mx-lg-3 mx-1"><a class="nav-link" aria-current="page" href="./contacto.html">Contacto</a></li>
-          </ul>
-          <div class="d-flex">
-            <a href="./inicia_sesion.html" class="btn btn-outline-warning frijole text ">Inicia Sesión</a>
+    <!--Inicio de encabezado-->
+    <header>
+      <div class="container-fluid pb-0">
+        <nav class="navbar navbar-dark navbar-expand-md">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../img/logo.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#listado"
+            aria-controls="listado"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="listado">
+            <ul class="navbar-nav mb-2 mb-lg-0 m-auto">
+              <li class="nav-item mx-lg-3 mx-1">
+                <a aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item mx-lg-3 mx-1">
+                <a class="activa" aria-current="page" href="./clases.html">Clases</a>
+              </li>
+              <li class="nav-item mx-lg-3 mx-1">
+                <a aria-current="page" href="./staff.html">Staff</a>
+              </li>
+              <li class="nav-item mx-lg-3 mx-1">
+                <a aria-current="page" href="./sedes.html">Sedes</a>
+              </li>
+              <li class="nav-item mx-lg-3 mx-1">
+                <a aria-current="page" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <a
+                href="./inicia_sesion.html"
+                class="btn btn-outline-warning"
+                >Inicia Sesión</a
+              >
+            </div>
           </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!--Fin de encabezado-->
+        </nav>
+      </div>
+    </header>
+    <!--Fin de encabezado-->
   <!-- CABECERA -->
   <section class="cabecera py-md-4 my-md-5 m-0 text-center">
-    <h1 class="frijole text-warning xl py-5">Clases</h1>
+    <h1 class=" text-warning xl py-5">Clases</h1>
   </section>
   <!-- Fin CABECERA -->
   <!--Inicio de principal-->
   <main>
     <section class="sedesClases">
       <div class="container text-center sticky-top bg-black" >
-        <h4 class="frijole text-warning fs-2 d-none d-md-block">Sedes</h4>
+        <h3 class="text-warning d-none d-md-block">Sedes</h3>
         <ul class="list-unstyled">
-          <li class="d-md-inline d-none px-4"><a href="#buenosaires" class="frijole text-white">Buenos Aires</a></li>
-          <li class="d-md-inline d-none px-4"><a href="#santafe" class="frijole text-white">Santa Fe</a></li>
-          <li class="d-md-inline d-none px-4"><a href="#mendoza" class="frijole text-white">Mendoza</a></li>
-          <li class="d-md-inline d-none px-4"><a href="#sanluis" class="frijole text-white">San Luis</a></li>
+          <li class="d-md-inline d-none px-4"><a href="#buenosaires" class=" text-white">Buenos Aires</a></li>
+          <li class="d-md-inline d-none px-4"><a href="#santafe" class=" text-white">Santa Fe</a></li>
+          <li class="d-md-inline d-none px-4"><a href="#mendoza" class=" text-white">Mendoza</a></li>
+          <li class="d-md-inline d-none px-4"><a href="#sanluis" class=" text-white">San Luis</a></li>
         </ul>
         <ul class="d-md-none d-block list-unstyled pb-5">
-          <li class="py-4"><a href="../archives/buenos-aires.xlt" download="SedeBsAs2023" class="frijole text-white">Buenos Aires</a></li>
-          <li class="py-4"><a href="../archives/santa-fe.xlt" download="SedeStaFe2023" class="frijole text-white">Santa Fe</a></li>
-          <li class="py-4"><a href="../archives/mendoza.xlt" download="SedeMza2023" class="frijole text-white">Mendoza</a></li>
-          <li class="py-4"><a href="../archives/san-luis.xlt" download="SedeSLuis2023" class="frijole text-white">San Luis</a></li>
+          <li class="py-4"><a href="../archives/buenos-aires.xlsx" download="SedeBsAs2023" class=" text-white">Buenos Aires</a></li>
+          <li class="py-4"><a href="../archives/santa-fe.xlsx" download="SedeStaFe2023" class=" text-white">Santa Fe</a></li>
+          <li class="py-4"><a href="../archives/mendoza.xlsx" download="SedeMza2023" class=" text-white">Mendoza</a></li>
+          <li class="py-4"><a href="../archives/san-luis.xlsx" download="SedeSLuis2023" class=" text-white">San Luis</a></li>
         </ul>
       </div>
 
       <div class="clases container">
         <div id="buenosaires" class="pt-md-5"></div>
         <div class=" p-md-5 text-center">
-          <h2 class="frijole large text-warning">Buenos Aires</h2>
+          <h2 class=" text-warning">Buenos Aires</h2>
           <table class="border coda table">
             <tr>
               <th scope="col">Horarios</th>
@@ -78,103 +104,103 @@
             </tr>
             <tr>
               <th scope="row">10:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td>Spinning</td>
+              <td>Natación Nivel 1</td>
+              <td>Spinning</td>
+              <td>Natación Nivel 1</td>
+              <td>Spinning</td>
+              <td>Elongación</td>
+              <td>-</td>
             </tr>
             <tr>
               <th scope="row">11:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td>Funcional</td>
+              <td>Natación Nivel 2</td>
+              <td>Funcional</td>
+              <td>Natación Nivel 2</td>
+              <td>Funcional</td>
+              <td>Hatha Yoga</td>
+              <td>-</td>
             </tr>
             <tr>
               <th scope="row">12:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td>Natación Nivel 3</td>
+              <td>Localizada</td>
+              <td>Natación Nivel 3</td>
+              <td>Localizada</td>
+              <td>Natación Nivel 3</td>
+              <td>Karate</td>
+              <td>-</td>
             </tr>
             <tr>
               <th scope="row">13:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td>Ashtanga Yoga</td>
+              <td>Elongación</td>
+              <td>Ashtanga Yoga</td>
+              <td>Elongación</td>
+              <td>Ashtanga Yoga</td>
+              <td>Danza Urbana</td>
+              <td>-</td>
             </tr>
             <tr>
               <th scope="row">14:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td>Judo</td>
+              <td>Hatha Yoga</td>
+              <td>Judo</td>
+              <td>Hatha Yoga</td>
+              <td>Judo</td>
+              <td>Patín Artístico</td>
+              <td>-</td>
             </tr>
             <tr>
               <th scope="row">15:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td>Natación Nivel 1</td>
+              <td>Danza Urbana</td>
+              <td>Natación Nivel 1</td>
+              <td>Danza Urbana</td>
+              <td>Natación Nivel 1</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
               <th scope="row">16:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td>Natación Nivel 2</td>
+              <td>Karate</td>
+              <td>Natación Nivel 2</td>
+              <td>Karate</td>
+              <td>Zumba</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
               <th scope="row">17:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td>Funcional</td>
+              <td>Patín Artístico</td>
+              <td>Funcional</td>
+              <td>Patín Artístico</td>
+              <td>Funcional</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
               <th scope="row">18:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td>Voley</td>
+              <td>Basquet</td>
+              <td>Voley</td>
+              <td>Basquet</td>
+              <td>Voley</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
           </table>
           <div class="text-end">
-            <a href="#clases" class="frijole text-warning">Volver</a>
+            <a href="#clases" class="volver text-warning">Volver</a>
           </div>
         </div> 
 
-        <div id="santafe"  class="pt-5"></div>
+        <div id="santafe" class="pt-5"></div>
         <div class=" p-5 text-center" >
-          <h2 class="frijole large text-warning ">Santa Fe</h2>
+          <h2 class="text-warning ">Santa Fe</h2>
             <table class="border text-center coda table ">
               <tr>
                 <th>Horarios</th>
@@ -187,103 +213,103 @@
                 <th>Domingo</th>
               </tr>
               <tr>
-                <th>10:00</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th scope="row">10:00</th>
+                <td>Spinning</td>
+                <td>Natación Nivel 1</td>
+                <td>Spinning</td>
+                <td>Natación Nivel 1</td>
+                <td>Spinning</td>
+                <td>Elongación</td>
+                <td>-</td>
               </tr>
               <tr>
-                <th>11:00</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th scope="row">11:00</th>
+                <td>Funcional</td>
+                <td>Natación Nivel 2</td>
+                <td>Funcional</td>
+                <td>Natación Nivel 2</td>
+                <td>Funcional</td>
+                <td>Hatha Yoga</td>
+                <td>-</td>
               </tr>
               <tr>
-                <th>12:00</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th scope="row">12:00</th>
+                <td>Natación Nivel 3</td>
+                <td>Localizada</td>
+                <td>Natación Nivel 3</td>
+                <td>Localizada</td>
+                <td>Natación Nivel 3</td>
+                <td>Karate</td>
+                <td>-</td>
               </tr>
               <tr>
-                <th>13:00</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th scope="row">13:00</th>
+                <td>Ashtanga Yoga</td>
+                <td>Elongación</td>
+                <td>Ashtanga Yoga</td>
+                <td>Elongación</td>
+                <td>Ashtanga Yoga</td>
+                <td>Danza Urbana</td>
+                <td>-</td>
               </tr>
               <tr>
-                <th>14:00</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th scope="row">14:00</th>
+                <td>Judo</td>
+                <td>Hatha Yoga</td>
+                <td>Judo</td>
+                <td>Hatha Yoga</td>
+                <td>Judo</td>
+                <td>Patín Artístico</td>
+                <td>-</td>
               </tr>
               <tr>
-                <th>15:00</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th scope="row">15:00</th>
+                <td>Natación Nivel 1</td>
+                <td>Danza Urbana</td>
+                <td>Natación Nivel 1</td>
+                <td>Danza Urbana</td>
+                <td>Natación Nivel 1</td>
+                <td>-</td>
+                <td>-</td>
               </tr>
               <tr>
-                <th>16:00</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th scope="row">16:00</th>
+                <td>Natación Nivel 2</td>
+                <td>Karate</td>
+                <td>Natación Nivel 2</td>
+                <td>Karate</td>
+                <td>Zumba</td>
+                <td>-</td>
+                <td>-</td>
               </tr>
               <tr>
-                <th>17:00</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th scope="row">17:00</th>
+                <td>Funcional</td>
+                <td>Patín Artístico</td>
+                <td>Funcional</td>
+                <td>Patín Artístico</td>
+                <td>Funcional</td>
+                <td>-</td>
+                <td>-</td>
               </tr>
               <tr>
-                <th>18:00</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th scope="row">18:00</th>
+                <td>Voley</td>
+                <td>Basquet</td>
+                <td>Voley</td>
+                <td>Basquet</td>
+                <td>Voley</td>
+                <td>-</td>
+                <td>-</td>
               </tr>
             </table>
             <div class="text-end">
-              <a href="#clases" class="frijole text-warning">Volver</a>
+              <a href="#clases" class="volver text-warning">Volver</a>
             </div>
         </div> 
         <div id="mendoza" class="pt-5"></div>
-        <div class="  p-5 text-center" >
-          <h2 class="frijole large text-warning ">Mendoza</h2>
+        <div class="p-5 text-center" >
+          <h2 class="text-warning ">Mendoza</h2>
           <table class="border text-center coda table ">
             <tr>
               <th>Horarios</th>
@@ -296,103 +322,103 @@
               <th>Domingo</th>
             </tr>
             <tr>
-              <th>10:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">10:00</th>
+              <td>Spinning</td>
+              <td>Natación Nivel 1</td>
+              <td>Spinning</td>
+              <td>Natación Nivel 1</td>
+              <td>Spinning</td>
+              <td>Elongación</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>11:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">11:00</th>
+              <td>Funcional</td>
+              <td>Natación Nivel 2</td>
+              <td>Funcional</td>
+              <td>Natación Nivel 2</td>
+              <td>Funcional</td>
+              <td>Hatha Yoga</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>12:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">12:00</th>
+              <td>Natación Nivel 3</td>
+              <td>Localizada</td>
+              <td>Natación Nivel 3</td>
+              <td>Localizada</td>
+              <td>Natación Nivel 3</td>
+              <td>Karate</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>13:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">13:00</th>
+              <td>Ashtanga Yoga</td>
+              <td>Elongación</td>
+              <td>Ashtanga Yoga</td>
+              <td>Elongación</td>
+              <td>Ashtanga Yoga</td>
+              <td>Danza Urbana</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>14:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">14:00</th>
+              <td>Judo</td>
+              <td>Hatha Yoga</td>
+              <td>Judo</td>
+              <td>Hatha Yoga</td>
+              <td>Judo</td>
+              <td>Patín Artístico</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>15:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">15:00</th>
+              <td>Natación Nivel 1</td>
+              <td>Danza Urbana</td>
+              <td>Natación Nivel 1</td>
+              <td>Danza Urbana</td>
+              <td>Natación Nivel 1</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>16:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">16:00</th>
+              <td>Natación Nivel 2</td>
+              <td>Karate</td>
+              <td>Natación Nivel 2</td>
+              <td>Karate</td>
+              <td>Zumba</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>17:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">17:00</th>
+              <td>Funcional</td>
+              <td>Patín Artístico</td>
+              <td>Funcional</td>
+              <td>Patín Artístico</td>
+              <td>Funcional</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>18:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">18:00</th>
+              <td>Voley</td>
+              <td>Basquet</td>
+              <td>Voley</td>
+              <td>Basquet</td>
+              <td>Voley</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
           </table>
           <div class="text-end">
-            <a href="#clases" class="frijole text-warning">Volver</a>
+            <a href="#clases" class="volver text-warning">Volver</a>
           </div>
         </div> 
         <div id="sanluis" class="pt-5"></div>
         <div class=" p-5 text-center" >
-          <h2 class="frijole large text-warning ">San Luis</h2>
+          <h2 class=" text-warning ">San Luis</h2>
           <table class="border text-center coda table ">
             <tr>
               <th>Horarios</th>
@@ -405,98 +431,98 @@
               <th>Domingo</th>
             </tr>
             <tr>
-              <th>10:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">10:00</th>
+              <td>Spinning</td>
+              <td>Natación Nivel 1</td>
+              <td>Spinning</td>
+              <td>Natación Nivel 1</td>
+              <td>Spinning</td>
+              <td>Elongación</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>11:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">11:00</th>
+              <td>Funcional</td>
+              <td>Natación Nivel 2</td>
+              <td>Funcional</td>
+              <td>Natación Nivel 2</td>
+              <td>Funcional</td>
+              <td>Hatha Yoga</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>12:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">12:00</th>
+              <td>Natación Nivel 3</td>
+              <td>Localizada</td>
+              <td>Natación Nivel 3</td>
+              <td>Localizada</td>
+              <td>Natación Nivel 3</td>
+              <td>Karate</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>13:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">13:00</th>
+              <td>Ashtanga Yoga</td>
+              <td>Elongación</td>
+              <td>Ashtanga Yoga</td>
+              <td>Elongación</td>
+              <td>Ashtanga Yoga</td>
+              <td>Danza Urbana</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>14:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">14:00</th>
+              <td>Judo</td>
+              <td>Hatha Yoga</td>
+              <td>Judo</td>
+              <td>Hatha Yoga</td>
+              <td>Judo</td>
+              <td>Patín Artístico</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>15:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">15:00</th>
+              <td>Natación Nivel 1</td>
+              <td>Danza Urbana</td>
+              <td>Natación Nivel 1</td>
+              <td>Danza Urbana</td>
+              <td>Natación Nivel 1</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>16:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">16:00</th>
+              <td>Natación Nivel 2</td>
+              <td>Karate</td>
+              <td>Natación Nivel 2</td>
+              <td>Karate</td>
+              <td>Zumba</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>17:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">17:00</th>
+              <td>Funcional</td>
+              <td>Patín Artístico</td>
+              <td>Funcional</td>
+              <td>Patín Artístico</td>
+              <td>Funcional</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
             <tr>
-              <th>18:00</th>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th scope="row">18:00</th>
+              <td>Voley</td>
+              <td>Basquet</td>
+              <td>Voley</td>
+              <td>Basquet</td>
+              <td>Voley</td>
+              <td>-</td>
+              <td>-</td>
             </tr>
           </table>
           <div class="text-end">
-            <a href="#clases" class="frijole text-warning">Volver</a>
+            <a href="#clases" class="volver text-warning">Volver</a>
           </div>
         </div>   
       </div>

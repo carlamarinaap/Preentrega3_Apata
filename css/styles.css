@@ -1,27 +1,30 @@
   /*FUENTES Y TAMAÑOS*/
 @import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Frijole&display=swap');
 
-.frijole {
-  font-family: "Frijole", cursive;
-  font-weight: 200;
-}
-.coda {
-  font-family: "Coda", cursive;
-}
+
 .coda_bold {
   font-family: "Coda", cursive;
   font-weight: 800;
 }
-.xxl {
-  font-size: calc(1.325rem + 4.5vw); /*ESTE TIENE QUE QUEDAR*/
-}
+
 .xl {
   font-size: calc(1.325rem + 2.5vw); /*ESTE TIENE QUE QUEDAR*/
 }
 
 /*GENERAL*/
+ul li a{
+  text-decoration: none;
+}
 * {
   color: white;
+  font-family: "Coda", cursive;
+}
+h1 {
+  font-size: calc(1.325rem + 4.5vw);
+}
+h1, h3, h1 span, h2, h3 span, button, .volver, .navbar div a {
+  font-family: "Frijole", cursive;
+  font-weight: 200;
 }
 .bodyLinks {
   background-image: url(../img/wallpaper_pages.jpg);
@@ -47,8 +50,26 @@
 header {
   background-image: linear-gradient(black,rgba(0,0,0,0));
 }
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link  {
+.navbar-nav li {
+  padding: 0 15px;
+}
+.navbar-nav li a {
+  color: white;
+  transition: color 0.2s;
+  font-family: "Frijole", cursive;
+  font-weight: 200;
+}
+.activa {
+  color: #ffc107 !important;
+}
+.navbar-nav li a:hover {
   color: #ffc107;
+}
+
+/*FOOTER*/
+footer p {
+  font-family: "Coda", cursive;
+  font-weight: 800;
 }
 
 /*INDEX*/
@@ -58,9 +79,11 @@ header {
 }
 
 /*CLASES*/
- ul li a{
-  text-decoration: none;
+.sedesClases ul li a {
+  font-family: "Frijole", cursive;
+  font-weight: 200;
 }
+
 
 /*STAFF*/
 .tarjeta {
