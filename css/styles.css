@@ -1,0 +1,126 @@
+  /*FUENTES Y TAMAÑOS*/
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Frijole&display=swap');
+
+.frijole {
+  font-family: "Frijole", cursive;
+  font-weight: 200;
+}
+.coda {
+  font-family: "Coda", cursive;
+}
+.coda_bold {
+  font-family: "Coda", cursive;
+  font-weight: 800;
+}
+.xxl {
+  font-size: calc(1.325rem + 4.5vw); /*ESTE TIENE QUE QUEDAR*/
+}
+.xl {
+  font-size: calc(1.325rem + 2.5vw); /*ESTE TIENE QUE QUEDAR*/
+}
+
+/*GENERAL*/
+* {
+  color: white;
+}
+.bodyLinks {
+  background-image: url(../img/wallpaper_pages.jpg);
+  background-position-y: top;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+.bodyInicio {
+  background-image: url(../img/wallpaper.jpeg);
+  background-size: 1400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.form-control,.form-select,.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.form-control::placeholder {
+  color: white;
+}
+
+/*HEADER*/
+header {
+  background-image: linear-gradient(black,rgba(0,0,0,0));
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link  {
+  color: #ffc107;
+}
+
+/*INDEX*/
+.espaciado {
+  display: block;
+  letter-spacing: 20px;
+}
+
+/*CLASES*/
+ ul li a{
+  text-decoration: none;
+}
+
+/*STAFF*/
+.tarjeta {
+  display: grid;
+  height: 500px;
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  margin: 1.5rem;
+}
+.tarjetaInterna {
+  opacity: 0;
+  width: 250px;
+  background-color: rgba(0,0,0, 0.5);
+  padding: 0.7rem;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  text-align: center;
+  align-self: center;
+  margin: auto;
+}
+.tarjeta:hover .tarjetaInterna{opacity: 1;}
+
+.milagros, .pia, .gaston, .fernando, .sofia, .julio {background-size: cover;}
+.milagros {background-image: url(../img/Milagros.jpg);}
+.pia {background-image: url(../img/Pia.jpg);}
+.gaston {background-image: url(../img/Gaston.jpg);}
+.fernando {background-image: url(../img/Fernando.jpg);}
+.sofia {background-image: url(../img/Sofia.jpg);}
+.julio {background-image: url(../img/Julio.jpg);}
+
+/*SEDES*/
+.sede {
+  background-color: rgba(0,0,0, 0.5);
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+.bg_img {
+  background-image: url(../img/gimnasios.jpg);
+  background-size: cover;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  margin: 1rem auto;
+}
+
+@media (max-width: 767px) {
+  /*GENERAL*/
+  .bodyInicio, .bodyLinks, .bg_img {
+    background-image: none;
+  }
+  /*SEDES*/
+  .bg_img {
+    border: none;
+  }
+  /*CLASES*/
+  .clases {
+    display: none;
+  }
+
+}
