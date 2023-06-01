@@ -121,13 +121,20 @@ footer p {
 }
 
 /*SEDES*/
-.sede {
+.sede, iframe {
   background-color: rgba(0,0,0, 0.5);
   border: 1px solid white;
   border-radius: 0.3rem;
   text-align: center;
   margin: 1rem;
   padding: 1rem;
+}
+iframe {
+  margin: 0;
+  padding: 0;
+}
+.sede p {
+  margin: 0;
 }
 .bg_img {
   background-image: url(../img/gimnasios.jpg);
@@ -150,5 +157,4 @@ footer p {
   .clases {
     display: none;
   }
-
 }
