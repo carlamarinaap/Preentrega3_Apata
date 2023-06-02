@@ -1,0 +1,30 @@
+$colores: (
+  blanco: #FFFFFF,
+  amarillo: #ffc107,
+  op_blanco: rgba(255, 255, 255, 0.1),
+  op_negro: rgba(0,0,0, 0.5)
+);
+
+@mixin fuente($nombre, $weight) {
+  font-family: $nombre, cursive;
+  font-weight: $weight;
+}
+@mixin bordes {
+  border-radius: 0.3rem;
+  border: 1px solid map-get($colores, blanco);
+}
+@mixin img_background{
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@mixin inputs {
+  background-color: map-get($colores, op_blanco);
+  color: map-get($colores, blanco);
+}
+@mixin para_sedes {
+  background-color: map-get($colores, op_negro);
+  @include bordes;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}

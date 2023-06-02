@@ -1,27 +1,20 @@
-/*SEDES*/
+@import 'variables';
 
-ul li a{
-  text-decoration: none;
-}
-.sede, iframe {
-  background-color: rgba(0,0,0, 0.5);
-  border: 1px solid white;
-  border-radius: 0.3rem;
-  text-align: center;
-  margin: 1rem;
-  padding: 1rem;
+/*SEDES*/
+.sede {
+  @include para_sedes;
+  p {
+    margin: 0;
+  }
 }
 iframe {
+  @include para_sedes;
   margin: 0;
   padding: 0;
 }
-.sede p {
-  margin: 0;
-}
 .bg_img {
+  @include bordes;
+  margin: 1rem auto;
   background-image: url(../img/gimnasios.jpg);
   background-size: cover;
-  border: 1px solid white;
-  border-radius: 0.3rem;
-  margin: 1rem auto;
 }

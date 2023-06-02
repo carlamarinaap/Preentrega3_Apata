@@ -1,136 +1,80 @@
-  /*FUENTES Y TAMAÑOS*/
-@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Frijole&display=swap');
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Frijole&display=swap");
+/*CABECERA*/
+.bodyLinks {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/wallpaper_pages.jpg);
+  background-position-y: top;
+}
 
-/*GENERAL*/
-ul li a{
-  text-decoration: none;
-}
-* {
-  color: white;
-  font-family: "Coda", cursive;
-}
+/*FUENTES Y TAMAÑOS*/
 h1 {
   font-size: calc(1.325rem + 4.5vw);
 }
-.cabecera h1 {
+
+h2 {
   font-size: calc(1.325rem + 2.5vw);
 }
-h1, h3, h1 span, h2, h3 span, button, .volver, .navbar div a, .sedesClases ul li a  {
+
+h1, h2, h3, h1 span, h3 span, button, a {
   font-family: "Frijole", cursive;
   font-weight: 200;
 }
+
 h4, footer p {
+  font-family: "Coda", cursive;
   font-weight: 800;
 }
-.bodyLinks {
-  background-image: url(../img/wallpaper_pages.jpg);
-  background-position-y: top;
-  background-position-x: center;
+
+/*HEADER*/
+header {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0));
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: #FFFFFF;
+  transition: color 0.2s;
+}
+.navbar-nav li a:hover {
+  color: #ffc107;
+}
+
+.activa {
+  color: #ffc107 !important;
+}
+
+/*INDEX*/
+.bodyInicio {
+  background-image: url(../img/wallpaper.jpeg);
+  background-size: 1400px;
+  background-position: center;
   background-repeat: no-repeat;
 }
-              /*HEADER*/
-              header {
-                background-image: linear-gradient(black,rgba(0,0,0,0));
-              }
-              .navbar-nav li {
-                padding: 0 10px;
-              }
-              .navbar-nav li a {
-                color: white;
-                transition: color 0.2s;
-                font-family: "Frijole", cursive;
-                font-weight: 200;
-              }
-              .activa {
-                color: #ffc107 !important;
-              }
-              .navbar-nav li a:hover {
-                color: #ffc107;
-              }
 
-              /*FOOTER*/
-              footer p {
-                font-weight: 800;
-              }
-
-              /*INDEX*/
-              .bodyInicio {
-                background-image: url(../img/wallpaper.jpeg);
-                background-size: 1400px;
-                background-position: center;
-                background-repeat: no-repeat;
-              }
-              .espaciado {
-                display: block;
-                letter-spacing: 20px;
-              }
-              .form-control,.form-select,.form-control:focus {
-                background-color: rgba(255, 255, 255, 0.1);
-                color: white;
-              }
-              .form-control::placeholder {
-                color: white;
-              }
-
-
-
-/*STAFF*/
-.staff_container{
-  margin: 1.5rem auto;
-  width: 300px;
-  height: 500px;
-}
-.img_container {
-  position: absolute;
+.espaciado {
+  display: block;
+  letter-spacing: 20px;
 }
 
-.img_container img {
-  width: 300px;
-  aspect-ratio: 0.6;
-  object-fit: cover;
-  border: 1px solid white;
-  border-radius: 0.3rem;
+.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
 }
-.tarjetaInterna {
-  position: relative;
-  opacity: 0;
-  transform: translateY(180px) ;
-  transition: all 0.3s;
-  width: 250px;
-  background-color: rgba(0,0,0, 0.5);
-  padding: 0.7rem;
-  border: 1px solid white;
-  border-radius: 0.3rem;
-  text-align: center;
-  margin: 1.5rem;
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
 }
-.staff_container:hover .tarjetaInterna{
-  transform: translateY(130px) ;
-  opacity: 1;
+.form-control::placeholder {
+  color: #FFFFFF;
 }
 
-/*SEDES*/
-.sede, iframe {
-  background-color: rgba(0,0,0, 0.5);
-  border: 1px solid white;
-  border-radius: 0.3rem;
-  text-align: center;
-  margin: 1rem;
-  padding: 1rem;
-}
-iframe {
-  margin: 0;
-  padding: 0;
-}
-.sede p {
-  margin: 0;
-}
-.bg_img {
-  background-image: url(../img/gimnasios.jpg);
-  background-size: cover;
-  border: 1px solid white;
-  border-radius: 0.3rem;
-  margin: 1rem auto;
+.form-select {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
 }
 
 @media (max-width: 767px) {
@@ -147,3 +91,81 @@ iframe {
     display: none;
   }
 }
+/*SEDES*/
+.sede {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.3rem;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+.sede p {
+  margin: 0;
+}
+
+iframe {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.3rem;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.bg_img {
+  border-radius: 0.3rem;
+  border: 1px solid #FFFFFF;
+  margin: 1rem auto;
+  background-image: url(../img/gimnasios.jpg);
+  background-size: cover;
+}
+
+/*STAFF*/
+.staff_container {
+  margin: 1.5rem auto;
+  width: 300px;
+  height: 500px;
+}
+.staff_container .img_container {
+  position: absolute;
+}
+.staff_container .img_container img {
+  border-radius: 0.3rem;
+  border: 1px solid #FFFFFF;
+  width: 300px;
+  aspect-ratio: 0.6;
+  object-fit: cover;
+}
+.staff_container .tarjetaInterna {
+  border-radius: 0.3rem;
+  border: 1px solid #FFFFFF;
+  padding: 0.7rem;
+  margin: 1.5rem;
+  width: 250px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(180px);
+  transition: all 0.3s;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.staff_container:hover .tarjetaInterna {
+  opacity: 1;
+  transform: translateY(130px);
+}
+
+/*GENERAL*/
+* {
+  font-family: "Coda", cursive;
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

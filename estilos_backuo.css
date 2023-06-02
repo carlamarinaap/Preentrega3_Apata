@@ -1,0 +1,147 @@
+                /*FUENTES Y TAMAÑOS*/
+                @import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Frijole&display=swap');
+
+                * {
+                  color: white;
+                  font-family: "Coda", cursive;
+                }
+                h1 {
+                  font-size: calc(1.325rem + 4.5vw);
+                }
+                .cabecera h1 {
+                  font-size: calc(1.325rem + 2.5vw);
+                }
+                h1, h3, h1 span, h2, h3 span, button, .volver, .navbar div a, .sedesClases ul li a  {
+                  font-family: "Frijole", cursive;
+                  font-weight: 200;
+                }
+                h4, footer p {
+                  font-weight: 800;
+                }
+                /*GENERAL*/
+                ul li a{
+                  text-decoration: none;
+                }
+                .bodyLinks {
+                  background-image: url(../img/wallpaper_pages.jpg);
+                  background-position-y: top;
+                  background-position-x: center;
+                  background-repeat: no-repeat;
+                }
+                /*HEADER*/
+                header {
+                  background-image: linear-gradient(black,rgba(0,0,0,0));
+                }
+                .navbar-nav li {
+                  padding: 0 10px;
+                }
+                .navbar-nav li a {
+                  color: white;
+                  transition: color 0.2s;
+                  font-family: "Frijole", cursive;
+                  font-weight: 200;
+                }
+                .activa {
+                  color: #ffc107 !important;
+                }
+                .navbar-nav li a:hover {
+                  color: #ffc107;
+                }
+  
+                /*FOOTER*/
+                footer p {
+                  font-weight: 800;
+                }
+  
+                /*INDEX*/
+                .bodyInicio {
+                  background-image: url(../img/wallpaper.jpeg);
+                  background-size: 1400px;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                }
+                .espaciado {
+                  display: block;
+                  letter-spacing: 20px;
+                }
+                .form-control,.form-select,.form-control:focus {
+                  background-color: rgba(255, 255, 255, 0.1);
+                  color: white;
+                }
+                .form-control::placeholder {
+                  color: white;
+                }
+  
+                /*STAFF*/
+                .staff_container{
+                  margin: 1.5rem auto;
+                  width: 300px;
+                  height: 500px;
+                }
+                .img_container {
+                  position: absolute;
+                }
+  
+                .img_container img {
+                  width: 300px;
+                  aspect-ratio: 0.6;
+                  object-fit: cover;
+                  border: 1px solid white;
+                  border-radius: 0.3rem;
+                }
+                .tarjetaInterna {
+                  position: relative;
+                  opacity: 0;
+                  transform: translateY(180px) ;
+                  transition: all 0.3s;
+                  width: 250px;
+                  background-color: rgba(0,0,0, 0.5);
+                  padding: 0.7rem;
+                  border: 1px solid white;
+                  border-radius: 0.3rem;
+                  text-align: center;
+                  margin: 1.5rem;
+                }
+                .staff_container:hover .tarjetaInterna{
+                  transform: translateY(130px) ;
+                  opacity: 1;
+                }
+  
+                /*SEDES*/
+                .sede, iframe {
+                  background-color: rgba(0,0,0, 0.5);
+                  border: 1px solid white;
+                  border-radius: 0.3rem;
+                  text-align: center;
+                  margin: 1rem;
+                  padding: 1rem;
+                }
+                iframe {
+                  margin: 0;
+                  padding: 0;
+                }
+                .sede p {
+                  margin: 0;
+                }
+                .bg_img {
+                  background-image: url(../img/gimnasios.jpg);
+                  background-size: cover;
+                  border: 1px solid white;
+                  border-radius: 0.3rem;
+                  margin: 1rem auto;
+                }
+  
+                @media (max-width: 767px) {
+                  /*GENERAL*/
+                  .bodyInicio, .bodyLinks, .bg_img {
+                    background-image: none;
+                  }
+                  /*SEDES*/
+                  .bg_img {
+                    border: none;
+                  }
+                  /*CLASES*/
+                  .clases {
+                    display: none;
+                  }
+                }
