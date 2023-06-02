@@ -1,6 +1,12 @@
 @import 'variables';
 
 /*SEDES*/
+.bg_img {
+  @include bordes;
+  margin: 1rem auto;
+  background-image: url(../img/gimnasios.jpg);
+  background-size: cover;
+}
 .sede {
   @include para_sedes;
   p {
@@ -11,10 +17,4 @@ iframe {
   @include para_sedes;
   margin: 0;
   padding: 0;
-}
-.bg_img {
-  @include bordes;
-  margin: 1rem auto;
-  background-image: url(../img/gimnasios.jpg);
-  background-size: cover;
 }

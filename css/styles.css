@@ -104,6 +104,14 @@ header {
 }
 
 /*SEDES*/
+.bg_img {
+  border-radius: 0.3rem;
+  border: 1px solid #FFFFFF;
+  margin: 1rem auto;
+  background-image: url(../img/gimnasios.jpg);
+  background-size: cover;
+}
+
 .sede {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.3rem;
@@ -125,14 +133,6 @@ iframe {
   padding: 1rem;
   margin: 0;
   padding: 0;
-}
-
-.bg_img {
-  border-radius: 0.3rem;
-  border: 1px solid #FFFFFF;
-  margin: 1rem auto;
-  background-image: url(../img/gimnasios.jpg);
-  background-size: cover;
 }
 
 /*FUENTES Y TAMAÑOS*/
