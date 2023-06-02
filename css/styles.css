@@ -6,9 +6,9 @@
   font-weight: 200;
   color: #FFFFFF;
   outline: none;
-  transition: all 0.2s;
+  transition: outline 0.2s;
 }
-*:focus {
+*:focus-visible {
   outline: 3px solid #ffc107;
 }
 
