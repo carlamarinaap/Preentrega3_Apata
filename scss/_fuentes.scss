@@ -1,0 +1,21 @@
+  /*FUENTES Y TAMAÑOS*/
+  @import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Frijole&display=swap');
+
+  * {
+    color: white;
+    font-family: "Coda", cursive;
+  }
+  h1 {
+    font-size: calc(1.325rem + 4.5vw);
+  }
+  .cabecera h1 {
+    font-size: calc(1.325rem + 2.5vw);
+  }
+
+  h1, h3, h1 span, h2, h3 span, button, .volver, .navbar div a, .sedesClases ul li a  {
+    font-family: "Frijole", cursive;
+    font-weight: 200;
+  }
+  h4, footer p {
+    font-weight: 800;
+  }

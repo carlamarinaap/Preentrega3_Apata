@@ -1,9 +1,6 @@
   /*FUENTES Y TAMAÑOS*/
 @import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Frijole&display=swap');
 
-.coda_bold {
-}
-
 /*GENERAL*/
 ul li a{
   text-decoration: none;
@@ -18,13 +15,12 @@ h1 {
 .cabecera h1 {
   font-size: calc(1.325rem + 2.5vw);
 }
-h1, h3, h1 span, h2, h3 span, button, .volver, .navbar div a {
+h1, h3, h1 span, h2, h3 span, button, .volver, .navbar div a, .sedesClases ul li a  {
   font-family: "Frijole", cursive;
   font-weight: 200;
 }
-h4 {
+h4, footer p {
   font-weight: 800;
-
 }
 .bodyLinks {
   background-image: url(../img/wallpaper_pages.jpg);
@@ -32,56 +28,50 @@ h4 {
   background-position-x: center;
   background-repeat: no-repeat;
 }
-.bodyInicio {
-  background-image: url(../img/wallpaper.jpeg);
-  background-size: 1400px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.form-control,.form-select,.form-control:focus {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: white;
-}
-.form-control::placeholder {
-  color: white;
-}
+              /*HEADER*/
+              header {
+                background-image: linear-gradient(black,rgba(0,0,0,0));
+              }
+              .navbar-nav li {
+                padding: 0 10px;
+              }
+              .navbar-nav li a {
+                color: white;
+                transition: color 0.2s;
+                font-family: "Frijole", cursive;
+                font-weight: 200;
+              }
+              .activa {
+                color: #ffc107 !important;
+              }
+              .navbar-nav li a:hover {
+                color: #ffc107;
+              }
 
-/*HEADER*/
-header {
-  background-image: linear-gradient(black,rgba(0,0,0,0));
-}
-.navbar-nav li {
-  padding: 0 10px;
-}
-.navbar-nav li a {
-  color: white;
-  transition: color 0.2s;
-  font-family: "Frijole", cursive;
-  font-weight: 200;
-}
-.activa {
-  color: #ffc107 !important;
-}
-.navbar-nav li a:hover {
-  color: #ffc107;
-}
+              /*FOOTER*/
+              footer p {
+                font-weight: 800;
+              }
 
-/*FOOTER*/
-footer p {
-  font-weight: 800;
-}
+              /*INDEX*/
+              .bodyInicio {
+                background-image: url(../img/wallpaper.jpeg);
+                background-size: 1400px;
+                background-position: center;
+                background-repeat: no-repeat;
+              }
+              .espaciado {
+                display: block;
+                letter-spacing: 20px;
+              }
+              .form-control,.form-select,.form-control:focus {
+                background-color: rgba(255, 255, 255, 0.1);
+                color: white;
+              }
+              .form-control::placeholder {
+                color: white;
+              }
 
-/*INDEX*/
-.espaciado {
-  display: block;
-  letter-spacing: 20px;
-}
-
-/*CLASES*/
-.sedesClases ul li a {
-  font-family: "Frijole", cursive;
-  font-weight: 200;
-}
 
 
 /*STAFF*/

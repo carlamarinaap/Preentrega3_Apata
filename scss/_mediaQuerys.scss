@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+  /*GENERAL*/
+  .bodyInicio, .bodyLinks, .bg_img {
+    background-image: none;
+  }
+  /*SEDES*/
+  .bg_img {
+    border: none;
+  }
+  /*CLASES*/
+  .clases {
+    display: none;
+  }
+}

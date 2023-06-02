@@ -1,0 +1,19 @@
+/*HEADER*/
+header {
+  background-image: linear-gradient(black,rgba(0,0,0,0));
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: white;
+  transition: color 0.2s;
+  font-family: "Frijole", cursive;
+  font-weight: 200;
+}
+.activa {
+  color: #ffc107 !important;
+}
+.navbar-nav li a:hover {
+  color: #ffc107;
+}
