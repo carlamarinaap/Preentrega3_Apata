@@ -13,7 +13,7 @@ a {
 
 /*HEADER*/
 header {
-  background-image: linear-gradient(black, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(#000000, rgba(0, 0, 0, 0));
 }
 
 .navbar-nav li {

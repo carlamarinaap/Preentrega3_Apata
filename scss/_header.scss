@@ -3,7 +3,7 @@
 
 /*HEADER*/
 header {
-  background-image: linear-gradient(black,rgba(0,0,0,0));
+  background-image: linear-gradient(map-get($colores,negro),map-get($colores,op_100));
 }
 .navbar-nav {
   li {
