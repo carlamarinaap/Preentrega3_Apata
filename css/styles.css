@@ -5,6 +5,11 @@
   font-family: "Coda", cursive;
   font-weight: 200;
   color: #FFFFFF;
+  outline: none;
+  transition: all 0.2s;
+}
+*:focus {
+  outline: 3px solid #ffc107;
 }
 
 a {
@@ -21,7 +26,7 @@ header {
 }
 .navbar-nav li a {
   color: #FFFFFF;
-  transition: color 0.2s;
+  transition: all 0.2s;
 }
 .navbar-nav li a:hover {
   color: #ffc107;
@@ -55,10 +60,15 @@ header {
 .form-control {
   background-color: rgba(255, 255, 255, 0.1);
   color: #FFFFFF;
+  outline: none;
+  transition: all 0.2s;
 }
 .form-control:focus {
   background-color: rgba(255, 255, 255, 0.1);
   color: #FFFFFF;
+  outline: none;
+  transition: all 0.2s;
+  outline: 3px solid #ffc107;
 }
 .form-control::placeholder {
   color: #FFFFFF;
@@ -67,6 +77,11 @@ header {
 .form-select {
   background-color: rgba(255, 255, 255, 0.1);
   color: #FFFFFF;
+  outline: none;
+  transition: all 0.2s;
+}
+.form-select:focus {
+  outline: 3px solid #ffc107;
 }
 
 /*STAFF*/

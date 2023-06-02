@@ -1,4 +1,5 @@
 @import 'variables';
+
 /*INDEX*/
 .bodyInicio {
   background-image: url(../img/wallpaper.jpeg);
@@ -12,14 +13,16 @@
 .form-control {
   @include inputs;
   &:focus {
-    // outline: map-get($colores, amarillo);
     @include inputs;
+    outline: 3px solid map-get($colores, amarillo);
   }
   &::placeholder {
     color: map-get($colores, blanco);
   }
 }
-
 .form-select {
   @include inputs;
+  &:focus {
+    outline: 3px solid map-get($colores, amarillo);
+  }
 }

@@ -22,6 +22,8 @@ $colores: (
 @mixin inputs {
   background-color: map-get($colores, op_blanco);
   color: map-get($colores, blanco);
+  outline: none;
+  transition: all 0.2s;
 }
 @mixin para_sedes {
   background-color: map-get($colores, op_negro);

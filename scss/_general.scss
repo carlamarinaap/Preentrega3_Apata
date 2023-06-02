@@ -5,6 +5,11 @@
 * {
   @include fuente("Coda", 200);
   color: map-get($colores, blanco);
+  outline: none;
+  transition: all 0.2s;
+  &:focus {
+    outline: 3px solid map-get($colores, amarillo);
+  }
 }
 a {
   text-decoration: none;

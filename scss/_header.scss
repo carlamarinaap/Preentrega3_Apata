@@ -1,6 +1,5 @@
 @import 'variables';
 
-
 /*HEADER*/
 header {
   background-image: linear-gradient(map-get($colores,negro),map-get($colores,op_100));
@@ -10,7 +9,7 @@ header {
     padding: 0 10px;
     a {
       color: map-get($colores, blanco);
-      transition: color 0.2s; 
+      transition: all 0.2s; 
       &:hover {
         color: map-get($colores, amarillo);
       }
