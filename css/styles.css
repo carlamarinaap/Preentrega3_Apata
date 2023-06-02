@@ -1,30 +1,14 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Frijole&display=swap");
-/*CABECERA*/
-.bodyLinks {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(../img/wallpaper_pages.jpg);
-  background-position-y: top;
-}
-
-/*FUENTES Y TAMAÑOS*/
-h1 {
-  font-size: calc(1.325rem + 4.5vw);
-}
-
-h2 {
-  font-size: calc(1.325rem + 2.5vw);
-}
-
-h1, h2, h3, h1 span, h3 span, button, a {
-  font-family: "Frijole", cursive;
-  font-weight: 200;
-}
-
-h4, footer p {
+/*GENERAL*/
+* {
   font-family: "Coda", cursive;
-  font-weight: 800;
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*HEADER*/
@@ -45,6 +29,14 @@ header {
 
 .activa {
   color: #ffc107 !important;
+}
+
+/*CABECERA*/
+.bodyLinks {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/wallpaper_pages.jpg);
+  background-position-y: top;
 }
 
 /*INDEX*/
@@ -75,52 +67,6 @@ header {
 .form-select {
   background-color: rgba(255, 255, 255, 0.1);
   color: #FFFFFF;
-}
-
-@media (max-width: 767px) {
-  /*GENERAL*/
-  .bodyInicio, .bodyLinks, .bg_img {
-    background-image: none;
-  }
-  /*SEDES*/
-  .bg_img {
-    border: none;
-  }
-  /*CLASES*/
-  .clases {
-    display: none;
-  }
-}
-/*SEDES*/
-.sede {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 0.3rem;
-  border: 1px solid #FFFFFF;
-  text-align: center;
-  margin: 1rem;
-  padding: 1rem;
-}
-.sede p {
-  margin: 0;
-}
-
-iframe {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 0.3rem;
-  border: 1px solid #FFFFFF;
-  text-align: center;
-  margin: 1rem;
-  padding: 1rem;
-  margin: 0;
-  padding: 0;
-}
-
-.bg_img {
-  border-radius: 0.3rem;
-  border: 1px solid #FFFFFF;
-  margin: 1rem auto;
-  background-image: url(../img/gimnasios.jpg);
-  background-size: cover;
 }
 
 /*STAFF*/
@@ -157,15 +103,70 @@ iframe {
   transform: translateY(130px);
 }
 
-/*GENERAL*/
-* {
-  font-family: "Coda", cursive;
-  font-weight: 200;
-  color: #FFFFFF;
+/*SEDES*/
+.sede {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.3rem;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+.sede p {
+  margin: 0;
 }
 
-a {
-  text-decoration: none;
+iframe {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.3rem;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.bg_img {
+  border-radius: 0.3rem;
+  border: 1px solid #FFFFFF;
+  margin: 1rem auto;
+  background-image: url(../img/gimnasios.jpg);
+  background-size: cover;
+}
+
+/*FUENTES Y TAMAÑOS*/
+h1 {
+  font-size: calc(1.325rem + 4.5vw);
+}
+
+h2 {
+  font-size: calc(1.325rem + 2.5vw);
+}
+
+h1, h2, h3, h1 span, h3 span, button, a {
+  font-family: "Frijole", cursive;
+  font-weight: 200;
+}
+
+h4, footer p {
+  font-family: "Coda", cursive;
+  font-weight: 800;
+}
+
+@media (max-width: 767px) {
+  /*GENERAL*/
+  .bodyInicio, .bodyLinks, .bg_img {
+    background-image: none;
+  }
+  /*SEDES*/
+  .bg_img {
+    border: none;
+  }
+  /*CLASES*/
+  .clases {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
