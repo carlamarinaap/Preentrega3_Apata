@@ -168,11 +168,6 @@ h1 span, h2 span, h3 span, button span, a span {
   font-weight: 200;
 }
 
-h4, footer p {
-  font-family: "Coda", cursive;
-  font-weight: 800;
-}
-
 @media (max-width: 767px) {
   /*GENERAL*/
   .bodyInicio, .bodyLinks, .bg_img {
