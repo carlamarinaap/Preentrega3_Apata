@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 
 /*FUENTES Y TAMAÑOS*/
 
@@ -8,8 +9,11 @@ h1 {
 h2 {
   font-size: calc(1.325rem + 2.5vw);
 }
- h1, h2, h3, h1 span, h3 span, button, a {
+ h1, h2, h3, button, a {
   @include fuente("Frijole", 200);
+  span {
+    @include fuente("Frijole", 200);
+  }
 }
 
 h4, footer p {

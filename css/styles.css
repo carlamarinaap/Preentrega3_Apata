@@ -159,7 +159,11 @@ h2 {
   font-size: calc(1.325rem + 2.5vw);
 }
 
-h1, h2, h3, h1 span, h3 span, button, a {
+h1, h2, h3, button, a {
+  font-family: "Frijole", cursive;
+  font-weight: 200;
+}
+h1 span, h2 span, h3 span, button span, a span {
   font-family: "Frijole", cursive;
   font-weight: 200;
 }
